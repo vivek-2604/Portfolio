@@ -419,9 +419,8 @@ h3.my-profession{
 }
 
 .about .about-content .personal-info{
-    flex: 0 0 60%;
-    max-width: 60%;
-    margin-top: 40px;
+    flex: 0 0 100%;
+    max-width: 100%;  
 }
 
 .about .about-content .personal-info .info-item{
@@ -581,6 +580,57 @@ h3.my-profession{
     font-size: 16px;
     text-align: justify;
     color: var(--text-black-700);
+}
+
+.about .about-content .timeline .timeline-texts{
+    line-height: 35px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
+    /* margin-bottom: 10px; */
+}
+
+.about .skill-info-item{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.about .skill-info-item .icon{
+    display: inline-block;
+}
+
+.about .skill-info-item .icon img{
+    width: 35px;
+    height: 30px;
+}
+
+.about .skill-info-item h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+    margin: 15px 0 5px;
+}
+
+.about .skill-info-item p{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-700);
+    font-weight: 400;
+}
+
+.skill{
+    margin-top: 20px;
+}
+
+.hire-text{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--skin-color);
+    text-transform: capitalize;
 }
 
 /* Service*/
